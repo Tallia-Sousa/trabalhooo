@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    border: 0;
+    padding:0;
+   
+
+
+}
+
+header{
+  background-color: rgba(216,191,216);
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 60px;
+  
+            
+}
+
+/*main{
+width: 80%;*/
+footer{
+  background-color: rgba(220,220,220);
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+  position: absolute;
+
+}
+#primeiro{
+
+}
+#um{
+width: 250px;
+position: absolute;
+height: 250px;
+background-color: rgba(0,255,127);  
+top: 35%;  
+left: 17%;
+border-radius: 15%;
+}
+#dois{
+width: 250px;
+position: absolute;
+height: 250px;
+background-color: rgba(65,105,225);  
+top: 35%;  
+left: 43%;
+border-radius: 15%;
+}
+#tres{
+width: 250px;
+position: absolute;
+height: 250px;
+background-color: rgba(255,140,0);  
+top: 35%;  
+left: 69%;
+border-radius: 15%;
+}
+ul{
+list-style-type: none;
+text-align: center;
+line-height: 60px;
+color: #FFF;
+
+}
+
+
+.menu{
+height: 0;
+display: flex;
+margin-left: 70%;
+line-height: 5px;
+
+
+}
+a{
+color: white;
+}
+
+.conf{
+color: black;
+font-size: large;
+text-align: center;
+align-content: center;
+align-items: center;
+line-height: 60px;
+}
+nav{
+display: flex;
+align-items: center;
+line-height: 60px;
+}
+.logo button{
+color: black;
+text-decoration: none;
+font-size: large;
+padding: 10px 15px;
+cursor: pointer;
+
+
+}
+button{
+border-color: var(--cor-cabecalho);
+border-radius: 5px;
+
+}
